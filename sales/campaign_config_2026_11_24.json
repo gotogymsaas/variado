@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "campaign": "GoToGym for Business",
+  "timezone": "America/Bogota",
+  "from_date": "2026-11-23",
+  "until_date": "2026-12-11",
+  "days": [
+    "MO",
+    "TU",
+    "WE",
+    "TH",
+    "FR"
+  ],
+  "local_times": [
+    "09:00",
+    "11:30",
+    "15:30"
+  ],
+  "max_individual_messages_per_slot": 7,
+  "booking_url": "https://outlook.office.com/bookwithme/user/4ba6cb329f05480fa1da25b546f36353@gotogym.store/meetingtype/xmA02iS4A0aEFrqisAZkHQ2?anonymous&ismsaljsauthenabled&ep=mlink",
+  "data_classification": "PRIVATE: do not upload to this public repository",
+  "sources": [
+    {
+      "system": "ChatGPT Library",
+      "path": "/GoToGym for Business/GoToGym_Sales_Maestro_Consolidado_4_Areas_2026_11_22(1).xlsx"
+    },
+    {
+      "system": "ChatGPT Library",
+      "path": "/GoToGym for Business/GoToGym_Sales_Anexo_Fuentes_Integras_2026_11_22(1).xlsx"
+    },
+    {
+      "system": "ChatGPT Library",
+      "path": "/GoToGym for Business/GoToGym_Business_Base_1073_Guia_Comercial_y_Facturacion_2026_11.xlsx"
+    }
+  ],
+  "current_source_of_truth": {
+    "messages": "Outlook Microsoft 365",
+    "companies_contacts_deals": "HubSpot",
+    "verified_research": "Public official sources"
+  },
+  "safety": [
+    "never publish contact data to public GitHub",
+    "never send to suppressions or opt-outs",
+    "do not contact multiple people in same active-deal account without owner",
+    "check Outlook and HubSpot before every email",
+    "scheduled is not sent; sent is not delivered"
+  ]
+}
